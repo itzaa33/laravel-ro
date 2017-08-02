@@ -52,7 +52,7 @@ class RegisterController extends Controller
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
             // 'provider' => 'required|string|max:255',
-            'URL_FaceBook' => 'required|string|min:20|unique:users',
+            'URL_FaceBook' => 'required|unique:users|url|regex:/http(?:s):\/\/(?:www\.)facebook\.com\/.+/i',
         ]);
     }
 
