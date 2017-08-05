@@ -78,7 +78,7 @@ div.banner a:hover { background: black; color: white }
 
 .bodyBG-home
 {
-    background-image: url('/BG/beins.jpg') ;
+    background-image: url('/BG/bg.jpg') ;
     background-repeat : no-repeat;
     background-attachment:fixed ;
     -webkit-background-size: cover;
