@@ -67,7 +67,7 @@
                 </div>
                 @else
                 <div class="col-sm-4">
-                  <li><a href="{{url('buy_user')}}" ><i class="fa fa-shopping-cart"></i>สถานะร้าน</a></li>
+                  <li><a href="{{url('buy_user')}}" class="active"><i class="fa fa-shopping-cart"></i>สถานะร้าน</a></li>
                 </div>
                 <div class="col-md-4">
                   <li><a href="{{url('histtory_sell')}}"><i class="fa fa-star"></i> ประวัติการซื้อ</a></li>

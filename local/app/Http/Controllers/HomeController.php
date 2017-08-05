@@ -26,6 +26,13 @@ class HomeController extends Controller
     public function index()
     {
         $obj['user'] = auth()->user();
+
+        $obj['table'] =   DB::table('posts')->join('users', 'posts.id_user', '=', 'users.id')
+                                           ->join('products', 'posts.id_product', '=', 'products.id')
+                                           ->where('users.rank','!=', 'User')
+                                           ->where('users.status_ban','=', '0')
+                                           ->get();
+
         return view('home',$obj);
     }
 

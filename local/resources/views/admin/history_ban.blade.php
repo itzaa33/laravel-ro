@@ -135,7 +135,7 @@
             <td class="description">แบนเนื่องจาก</td>
           </tr>
         </thead>
-        <tbody>
+        <tbody style="background: rgba(0, 0, 0, 0.49);">
           @foreach($table as $row)
           <tr>
             <td class="tableme">

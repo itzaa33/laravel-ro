@@ -52,10 +52,10 @@ div.banner {
   line-height: 1.1;
   text-align: center;
   position: fixed;
-  top: 2em;
+  top: 7em;
   left: auto;
-  width: 8.5em;
-  right: 2em;
+  width: 3.5em;
+  right: 7em;
 }
 div.banner p {
   margin: 0;

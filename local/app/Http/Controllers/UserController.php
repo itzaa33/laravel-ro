@@ -556,5 +556,4 @@ class UserController extends Controller
 
        return redirect(url('buy_user'));
      }
-
 }

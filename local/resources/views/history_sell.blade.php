@@ -19,7 +19,7 @@
                     <li><a href="{{url('histtory_sell')}}"class="active" ><i class="fa fa-star"></i> ประวัติการซื้อ</a></li>
 
                     <li><a href="{{url('histtory_buy')}}" ><i class="fa fa-star"></i> ประวัติการขาย</a></li>
-                
+
                     <li><a href="{{url('re_password')}}">
                     <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
                       เปลี่ยนรหัส

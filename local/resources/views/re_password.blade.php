@@ -38,7 +38,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group">
+                      
                             <div class="form-group{{ $errors->has('password_confirmation') ? ' has-error' : '' }}">
                             <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
 
@@ -51,7 +51,7 @@
                                 @endif
                             </div>
                             </div>
-                        </div>
+
 
                         <div  class="form-group">
                           <div class="col-md-6 col-md-offset-4">
